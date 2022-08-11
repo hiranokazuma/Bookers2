@@ -1,2 +1,16 @@
-<h1>Users#index</h1>
-<p>Find me in app/views/users/index.html.erb</p>
+
+<%= render 'user-info', books: @books, users: @users, user: @user%>
+  <div class="col-md-8 offset-md-1">
+    <h1>Users</h1>
+  <% @users.each do |user| %>
+  <div>
+    <%= image_tag @user.get_profile_image(100,100) %>
+    <p>name：<%= user.name %></p>
+    <!--<%# if @user == current_user %>-->
+    <!--<p><%#= link_to "プロフィール編集",edit_user_path(@user) %></p>-->
+    <!--<%# end %>-->
+
+  </div>
+  <% end %>
+  </div><!--部分テンプレートの</div>不足分-->
+</div><!--部分テンプレートの</div>不足分-->
