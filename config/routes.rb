@@ -10,7 +10,8 @@ Rails.application.routes.draw do
   # get 'books/edit'
   # get 'homes/top'
   resources :users
-  resources :books, only: [:new, :create, :index, :show]
+  resources :books
+
   get '/homes/about' => "homes#about", as: 'about'
 
   root to: 'homes#top'
