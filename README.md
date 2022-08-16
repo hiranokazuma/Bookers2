@@ -1,24 +1,13 @@
-# README
+# DMM WEBCAMPコンテンツ【アプリケーションを作成してみよう：応用編】
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+DMM WEBCAMPの学習コンテンツアプリケーションを作成してみようの研修課題です。
 
-Things you may want to cover:
+## 使い方
 
-* Ruby version
+本のタイトルやコメントを投稿するアプリケーションです。
 
-* System dependencies
+ユーザーごとに名前・e-mailアドレス・パスワードで認証する仕様となっています。
 
-* Configuration
+ユーザーはプロフィール画像や自己紹介文を編集することができます。
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+html/cssファイルのため、PCのブラウザで実行できます。
